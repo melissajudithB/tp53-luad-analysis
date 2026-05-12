@@ -1,0 +1,36 @@
+# Large data files — don't push raw sequencing data to GitHub
+*.fastq
+*.fastq.gz
+*.bam
+*.bam.bai
+*.vcf
+*.vcf.gz
+
+# Large annotation files
+*.gtf
+*.gff
+*.gff3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Log files
+*.log
